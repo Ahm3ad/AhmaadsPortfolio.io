@@ -5,3 +5,11 @@
 
 used to display Lato font.
 
+
+got some information from
+
+https://www.youtube.com/watch?v=RroDdybvu5s
+
+https://www.geeksforgeeks.org/html-tutorial/
+
+
