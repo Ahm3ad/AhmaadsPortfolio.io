@@ -118,6 +118,20 @@ p {
 
 /* Buttons */
 button, .btn {
+    background-color: #51ff00; /* home page button  color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+   
+}
+
+
+
+.button {
+    display: inline-block;
     background-color: #ff8a00;
     border: none;
     color: white;
@@ -125,22 +139,7 @@ button, .btn {
     font-size: 18px;
     border-radius: 30px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover, .btn:hover {
-    background-color: #da1b60;
-}
-
-.button {
-    display: inline-block;
-    background-color: #ff1100;
-    color: white;
-    padding: 10px 20px;
-    font-size: 18px;
-    text-align: center;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+   
 }
 
 /* Footer */
@@ -175,19 +174,16 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
 }
 
 input[type="submit"] {
-    background-color: #ff8a00;
+    background-color: #ff8a00;/* submit button color for Contact page */
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 30px;
     font-size: 18px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+
 }
 
-input[type="submit"]:hover {
-    background-color: #da1b60;
-}
 
 /* Responsive Design for smaller screens  */
 @media (max-width: 768px) {
