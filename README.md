@@ -12,4 +12,6 @@ https://www.youtube.com/watch?v=RroDdybvu5s
 
 https://www.geeksforgeeks.org/html-tutorial/
 
+https://www.geeksforgeeks.org/css-complete-guide/
 
+https://www.geeksforgeeks.org/css-margins-padding/
