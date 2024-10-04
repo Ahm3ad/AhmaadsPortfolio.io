@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Contact Me - My Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="Images/photo.jpg" alt="My Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Me</h1>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+            
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" required></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>Contact me at: Ahmaad.riaz@outlook.com</p>
+        <p>&copy; Ahmaad Riaz</p>
+    </footer>
+</body>
+</html>
